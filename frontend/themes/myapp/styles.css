@@ -1,0 +1,18 @@
+@import url('./main-layout.css');
+@import url('./views/essay-bot-view.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+@import url('@fontsource/prompt');    html {
+      --lumo-border-radius: calc(var(--lumo-size-m) / 2);
+      --lumo-space-xl: 2.5rem;
+      --lumo-space-l: 1.75rem;
+      --lumo-space-m: 1.125rem;
+      --lumo-space-s: 0.75rem;
+      --lumo-space-xs: 0.375rem;
+      --lumo-size-xl: 4rem;
+      --lumo-size-l: 3rem;
+      --lumo-size-m: 2.5rem;
+      --lumo-size-s: 2rem;
+      --lumo-size-xs: 1.75rem;
+--lumo-font-family: Prompt;
+
+    }
