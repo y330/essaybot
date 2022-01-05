@@ -1,3 +1,15 @@
+### About the app
+#### By Yonah Aviv
+I customized the paramters of GPT-3 for essay-style output given a prompt, and an extra feature to make the lenght of the essay longer. This works as follows:
+(for demonstration purposes, lets say its a 5 paragraph essay)
+1. input a prompt(the input)
+2. essaybot processes the prompt, and feeds it to gpt-3 with my customized paramters
+3. gpt-3 sends a response
+4. THEN using the output from gpt-3 as a prompt, repeat steps 2-3 five times(one for each paragraph).
+5. then finally, you will get a nice 5 parapgraph essay, otherwise unacheivable using gpt-3 regulary as it exceeds the max token amount.
+Additionally, it keeps the context of the essay throughout the whole process.
+
+
 # My App
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
